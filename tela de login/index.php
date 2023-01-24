@@ -37,13 +37,7 @@ if(isset($_POST['email']))
             {
                 header ("location: areaPrivada.php");
             }
-            else 
-            {
-                ?>
-                <div class="msg-erro">Email e/ou senha estão incorretos!</div>
-               
-                <?php   
-            }    
+          
         }
         else 
         {
