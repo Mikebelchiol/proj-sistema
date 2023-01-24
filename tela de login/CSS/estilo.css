@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+input {
+    display: block;
+    height: 30px;
+    width: 390px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 12pt;
+    padding: 10px 20px;
+    display: inline;
+}
+
+button{
+    display: block;
+    height: 50px;
+    width: 430px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 12pt;
+    padding: 10px 20px;
+    text-align: center;
+}
+div#corpo-form{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+
+/*estilizando o feedback do formulario*/
+div#msg-sucesso {
+    width: 380px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(rgb(0, 0, 0), green, blue, alpha);
+    border: 1px solid  rgb(rgb(224, 224, 224), green, blue);
+}
+div.msg-erro {
+    width: 380px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(rgb(0, 0, 0), green, blue, alpha);
+    border: 1px solid  rgb(rgb(224, 224, 224), green, blue);
+}
