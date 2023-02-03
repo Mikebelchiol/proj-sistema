@@ -156,7 +156,7 @@ body {
     width: 100%;
     margin-top: 1rem;
     border: none;
-    background-color: #1d7cf8;
+    background-color: #0651b3;
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
@@ -164,7 +164,7 @@ body {
 }
 
 .cadastrar-button button:hover {
-    background-color: #0651b3;
+    background-color: #04316b;
 }
 
 .cadastrar-button button a {
@@ -173,6 +173,7 @@ body {
     font-weight: 500;
     color: #fff;
 }
+
 @media screen and (max-whidt: 1330px) {
     .form-image {
         display: none;
