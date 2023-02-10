@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+       <div class="form-image">
+         <img src="img/undraw_science_re_mnnr (2).svg" height="330px">
+       </div>
+
+       <div class="form">
+         <form action="#">
+         <div class="form-header">
+            <div class="title">
+                <h1>Cadastre o produto</h1>
+            </div>
+        </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="prioridade">Prioridade</label>
+                    <input id="prioridade" type="text" placeholder=" A B C " required>
+                </div>
+                <div class="input-box">
+                    <label for="reator">Reator</label>
+                    <input id="reator" type="text" placeholder="N° do Reator" required>
+                </div>
+                <div class="input-box">
+                    <label for="produto">Produto</label>
+                    <input id="produto" type="text" placeholder="Nome do produto" required>
+                </div>
+                <div class="input-box">
+                    <label for="lote">Lote</label>
+                    <input id="lote" type="text" placeholder="N° do Lote" required>
+                </div>
+                <div class="input-box">
+                    <label for="roteiro">Roteiro</label>
+                    <input id="roteiro" type="text" placeholder="N° do Roteiro" required>
+                </div>
+                <div class="input-box">
+                    <label for="op">OP</label>
+                    <input id="op" type="text" placeholder="N° da OP" required>
+                </div>
+                <div class="input-box">
+                    <label for="quantidade">Quantidade(Kg)</label>
+                    <input id="quantidade" type="text" placeholder="000000000000000" required>
+                </div>
+                <div class="input-box">
+                    <label for="supervisor de turno">supervisor de turno</label>
+                    <input id="supervisor de turno" type="text" placeholder="supervisor de turno" required>
+                </div>
+            </div>
+         
+            <div class="turno-inputs">
+                <div class="turno-title">
+                    <h6>Turno</h6>
+                </div>
+
+                <div class="turno-shift">
+
+                    <div class="turno-input">
+                        <input type="radio" id="A" name="turno A">
+                        <label for="A">A</label>
+                    </div>
+
+                    <div class="turno-input">
+                        <input type="radio" id="B" name="turno B">
+                        <label for="B">B</label>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="cadastrar-button">
+                <button><a href="#">Cadastrar</a></button>
+            </div>
+        </form>
+       </div>
+    </div>
+</body>
+
+</html>
