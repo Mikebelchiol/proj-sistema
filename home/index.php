@@ -5,8 +5,8 @@ include('../login/connect.php');
 
 //criando sessão , armazenando as variaveis e fazendo a consulta do email e da senha do banco de dados  
 SESSION_START();
-$log = $_SESSION['login_user'];
-$pass = $_SESSION['senha_user'];
+@$log = $_SESSION['login_user'];
+@$pass = $_SESSION['senha_user'];
 $sql = mysqli_query($link,"SELECT * FROM tb_login WHERE email='$log'");
 while ($line = mysqli_fetch_array($sql)) {
     $email = $line['email'];
@@ -16,7 +16,7 @@ while ($line = mysqli_fetch_array($sql)) {
 if($email != "" && $senha != "" ) {
     echo "Está conectado";
 }else {
-    header('loacation: ../login/');
+    header('location: ../login/');
 }
 
 
@@ -61,7 +61,7 @@ if($email != "" && $senha != "" ) {
                           <li><a href="#">Roteiros</a></li>
                         </ul>
                       </li>
-                    <li><a href="index.html">Sair</a></li>
+                    <li><a href="../home/logout.php">Sair</a></li>
 
     <!--BARRA DE PESQUISA-->                      
                       <div class="caixa-de-pesquisa">
