@@ -14,7 +14,7 @@ while ($line = mysqli_fetch_array($sql)) {
 }
 // se email for diferente de vazio e senha for diferente de vazio, esta conectado. se nao, voltar à tela de login
 if($email != "" && $senha != "" ) {
-    echo "Está conectado";
+    
 }else {
     header('location: ../login/');
 }
@@ -36,12 +36,12 @@ if($email != "" && $senha != "" ) {
     <!--MENU INTERATIVO-->
          <nav class="dp-menu">
               <ul>
-                    <li><a href="#">Início</a></li>
+                    <li><a href="../home/">Início</a></li>
             <!--CQ--> <li><a href="#">CQ</a>
                          <ul>
                           <li><a href="#">Produtos</a></li>
                           <li><a href="#">Reenvase</a></li>
-                          <li><a href="file:///C:/Users/estagio.ti/Desktop/Formulario%20de%20cadastro/index.html">Cadastrar Produto</a></li>
+                          <li><a href="../cadastro_produto/index.php">Cadastrar Produto</a></li>
                           <li><a href="#">Feedbacks</a></li>
                          </ul>
                       </li>
