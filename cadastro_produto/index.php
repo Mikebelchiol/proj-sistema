@@ -20,7 +20,7 @@ session_start();
 <body>
     <div class="container">
        <div class="form-image">
-         <img src="img/undraw_science_re_mnnr (2).svg" height="330px">
+         <img src="img/undraw_Science_re_mnnr.png" height="330px">
        </div>
 
        <div class="form">
