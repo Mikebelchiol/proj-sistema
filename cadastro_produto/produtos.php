@@ -3,7 +3,7 @@
 require_once("servidor.php");
 
 $consulta = "SELECT * FROM produtos";
-$con = $mysqli->query($consulta) or die($mysqli->error);
+$con = $conn->query($consulta) or die($conn->error);
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -14,11 +14,12 @@ $con = $mysqli->query($consulta) or die($mysqli->error);
     <title>Produtos</title>
 </head>
 <body>
+    <h1>Produtos</h1>
     <table>
         <tr>
             <td>Prioridade</td>
             <td>Reator</td>
-            <td>Produto</td>
+            <td>Nome</td>
             <td>Lote</td>
             <td>Roteiro</td>
             <td>OP</td>
