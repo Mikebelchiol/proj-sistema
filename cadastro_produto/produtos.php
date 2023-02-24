@@ -14,18 +14,19 @@ $con = $conn->query($consulta) or die($conn->error);
     <title>Produtos</title>
 </head>
 <body>
+    <center>
     <h1>Produtos</h1>
-    <table>
+    <table border="1">
         <tr>
-            <td>Prioridade</td>
-            <td>Reator</td>
-            <td>Nome</td>
-            <td>Lote</td>
-            <td>Roteiro</td>
-            <td>OP</td>
-            <td>Quantidade</td>
-            <td>Supervisor</td>
-            <td>Turno</td>
+            <th>Prioridade</th>
+            <th>Reator</th>
+            <th>Nome</th>
+            <th>Lote</th>
+            <th>Roteiro</th>
+            <th>OP</th>
+            <th>Quantidade</th>
+            <th>Supervisor</th>
+            <th>Turno</th>
         </tr>
         <?php while($dado = $con->fetch_array()){ ?>
         <tr>
@@ -41,5 +42,6 @@ $con = $conn->query($consulta) or die($conn->error);
         </tr>
         <?php } ?>
     </table>
+    </center>
 </body>
 </html>
