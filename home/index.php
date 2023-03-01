@@ -39,7 +39,7 @@ if($email != "" && $senha != "" ) {
                     <li><a href="../home/">Início</a></li>
             <!--CQ--> <li><a href="#">CQ</a>
                          <ul>
-                          <li><a href="#">Produtos</a></li>
+                          <li><a href="../cadastro_produto/produtos.php">Produtos</a></li>
                           <li><a href="#">Reenvase</a></li>
                           <li><a href="../cadastro_produto/index.php">Cadastrar Produto</a></li>
                           <li><a href="#">Feedbacks</a></li>
@@ -48,7 +48,7 @@ if($email != "" && $senha != "" ) {
 
        <!--produção--><li><a href="#">Produção</a>
                         <ul>
-                          <li><a href="#">Produtos</a></li>
+                          <li><a href="../cadastro_produto/produtos.php">Produtos</a></li>
                           <li><a href="#">Reenvase</a></li>
                           <li><a href="#">Feedbacks</a></li>
                         </ul>
